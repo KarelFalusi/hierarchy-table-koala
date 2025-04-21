@@ -1,2 +1,1 @@
-# hierarchy-table-koala
-Created with CodeSandbox
+npm install && npm start
