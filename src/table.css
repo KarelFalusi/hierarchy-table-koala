@@ -1,0 +1,72 @@
+.app {
+  font-family: sans-serif;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.hierarchy-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #222;
+  color: white;
+}
+
+.hierarchy-table th {
+  background: #38e0b7;
+  color: #222;
+  padding: 8px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+}
+
+.hierarchy-table td {
+  padding: 8px;
+  border-bottom: 1px solid #444;
+  white-space: nowrap;
+}
+
+/* Různé barvy pro různé úrovně zanoření */
+.hierarchy-table tr.level-0 td {
+  background: #222;
+}
+
+.hierarchy-table tr.level-1 td {
+  background: #333;
+}
+
+.hierarchy-table tr.level-2 td {
+  background: #444;
+}
+
+/* Styly pro tlačítka */
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.toggle-cell {
+  width: 30px;
+}
+
+.delete-cell {
+  width: 50px;
+  text-align: center;
+}
+
+.spacer {
+  display: inline-block;
+  width: 20px;
+}
